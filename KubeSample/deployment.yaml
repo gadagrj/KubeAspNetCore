@@ -1,0 +1,41 @@
+apiVersion: extensions/v1beta1
+kind: Deployment
+metadata:
+  name: simple-rgwebapi-pod-v4
+spec:
+  replicas: 4
+  template:
+    metadata:
+      labels:
+        app: simple-rgwebapi-pod-v4
+    spec:
+      containers:
+      - name: simple-rgwebapi-pod-v4
+        image: rjgadag/kubeaspnetapp:v4
+        livenessProbe:
+          httpGet:
+            path: health/live
+            port: 80
+            scheme: HTTP
+          initialDelaySeconds: 10
+          timeoutSeconds: 4
+        readinessProbe:
+          httpGet:
+            path: health/ready
+            port: 80
+            scheme: HTTP
+          initialDelaySeconds: 6
+          timeoutSeconds: 5
+        ports:
+        - containerPort: 80
+        env:
+        - name: "ASPNETCORE_ENVIRONMENT"
+          value: "secrets"
+        volumeMounts:
+        - name: secrets
+          mountPath: /app/secrets
+          readOnly: true
+      volumes:
+      - name: secrets
+        secret:
+          secretName: secret-appsettings
