@@ -1,2 +1,6 @@
 # KubeAspNetCore
-Sample application using Asp.net Core, Health checks, Kubernetes
+Sample applications Using ASP.NET core, Kubernetes. 
+
+Features Used in Sample 
+1. Asp.Net Core 
+ 
