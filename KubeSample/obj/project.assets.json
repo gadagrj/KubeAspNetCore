@@ -12293,11 +12293,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\2018\\K8Samples\\ASPNETCOREK8\\KubeSample\\KubeSample.csproj",
+      "projectUniqueName": "E:\\2018\\K8Samples\\KubeSample\\KubeSample\\KubeSample.csproj",
       "projectName": "KubeSample",
-      "projectPath": "E:\\2018\\K8Samples\\ASPNETCOREK8\\KubeSample\\KubeSample.csproj",
+      "projectPath": "E:\\2018\\K8Samples\\KubeSample\\KubeSample\\KubeSample.csproj",
       "packagesPath": "C:\\Users\\ERROR\\.nuget\\packages\\",
-      "outputPath": "E:\\2018\\K8Samples\\ASPNETCOREK8\\KubeSample\\obj\\",
+      "outputPath": "E:\\2018\\K8Samples\\KubeSample\\KubeSample\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -12316,8 +12316,8 @@
       "frameworks": {
         "netcoreapp2.2": {
           "projectReferences": {
-            "E:\\2018\\K8Samples\\ASPNETCOREK8\\KubeSample.Data\\KubeSample.Data.csproj": {
-              "projectPath": "E:\\2018\\K8Samples\\ASPNETCOREK8\\KubeSample.Data\\KubeSample.Data.csproj"
+            "E:\\2018\\K8Samples\\KubeSample\\KubeSample.Data\\KubeSample.Data.csproj": {
+              "projectPath": "E:\\2018\\K8Samples\\KubeSample\\KubeSample.Data\\KubeSample.Data.csproj"
             }
           }
         }

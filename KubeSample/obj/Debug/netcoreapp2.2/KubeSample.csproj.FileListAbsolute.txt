@@ -17,3 +17,4 @@ E:\2018\K8Samples\KubeSample\KubeSample\obj\Debug\netcoreapp2.2\KubeSample.Razor
 E:\2018\K8Samples\KubeSample\KubeSample\obj\Debug\netcoreapp2.2\KubeSample.csproj.CopyComplete
 E:\2018\K8Samples\KubeSample\KubeSample\obj\Debug\netcoreapp2.2\KubeSample.dll
 E:\2018\K8Samples\KubeSample\KubeSample\obj\Debug\netcoreapp2.2\KubeSample.pdb
+E:\2018\K8Samples\KubeSample\KubeSample\bin\Debug\netcoreapp2.2\secrets\appsettings.secrets.json

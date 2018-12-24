@@ -20,8 +20,6 @@ COPY --from=publish /app .
 ENTRYPOINT ["dotnet", "KubeSample.dll"]
 
 
-
-
-# docker build -t kubeaspnetapp:v4 -f E:/2018/K8Samples/ASPNETCOREK8/KubeSampleDockerfile .
+# docker build -t kubeaspnetapp:v4 .
 # docker tag kubeaspnetapp:v4 rjgadag/kubeaspnetapp:v4
 # docker push rjgadag/kubeaspnetapp
