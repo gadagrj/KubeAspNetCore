@@ -20,6 +20,9 @@ COPY --from=publish /app .
 ENTRYPOINT ["dotnet", "KubeSample.dll"]
 
 
-# docker build -t kubeaspnetapp:v4 .
+# docker build --no-cache -t kubeaspnetapp:v4 -f E:\2018\K8Samples\KubeSample\KubeSample\Dockerfile E:\2018\K8Samples\KubeSample
 # docker tag kubeaspnetapp:v4 rjgadag/kubeaspnetapp:v4
 # docker push rjgadag/kubeaspnetapp
+
+# kubectl.exe apply -f E:\2018\K8Samples\KubeSample\KubeSample\deployment.yaml
+# kubectl.exe apply -f E:\2018\K8Samples\KubeSample\KubeSample\service.yaml

@@ -3,7 +3,7 @@ kind: Deployment
 metadata:
   name: simple-rgwebapi-pod-v4
 spec:
-  replicas: 4
+  replicas: 5
   template:
     metadata:
       labels:
